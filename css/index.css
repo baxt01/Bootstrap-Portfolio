@@ -10,7 +10,8 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: white;
+  /* font-weight: 900; */
   transition: all 0.35s;
   text-decoration: none;
 }
