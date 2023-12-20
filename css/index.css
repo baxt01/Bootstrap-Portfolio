@@ -10,15 +10,14 @@ body {
 }
 
 a {
-  color: white;
-  /* font-weight: 900; */
+    color: #222222;
   transition: all 0.35s;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #fcbd20;
+  color: #64a19d;
 }
 
 hr {
@@ -142,12 +141,13 @@ section.masthead .device-container .screen img {
   border-radius: 3px;
 }
 
-section.download {
+/* Work section */
+section.work {
   position: relative;
   padding: 25px 0;
 }
 
-section.download h2 {
+section.work h2 {
   font-size: 50px;
   margin-top: 0;
 }
@@ -156,49 +156,20 @@ section.download h2 {
     background-image: url("../images/IDE.png");
 }
 
-/* Testimonials section ============= */
+/* skills section ============= */
 
 section.skills {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
 
-section.skills .testimonial-item {
+section.skills .skills-item {
   max-width: 18rem;
 }
 
-section.skills .testimonial-item img {
+section.skills .skills-item img {
   max-width: 12rem;
   box-shadow: 0px 5px 5px 0px #adb5bd;
-}
-
-/* Signup section ============= */
-
-.signup-section {
-  padding: 10rem 0;
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.1) 0%,
-      rgba(0, 0, 0, 0.5) 75%,
-      #000000 100%
-    ),
-    url('../images/SF.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-.signup-section .form-inline input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
 }
 
 .contact-section {
@@ -338,4 +309,8 @@ footer ul li a.active {
 .profile-img {
     height: 100px;
     width: 100px;
+}
+
+ul {
+  list-style: none;
 }
