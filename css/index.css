@@ -5,21 +5,25 @@ body {
   height: 100%;
 }
 
+/* Setting the body fonts */
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
+/* Setting the link color and removing the underline */
 a {
-    color: #222222;
+    color: #66c09b;
   transition: all 0.35s;
   text-decoration: none;
 }
 
+/* Setting the link on hover & focus color */
 a:hover,
 a:focus {
   color: #64a19d;
 }
 
+/* Setting the attributes for the HR */
 hr {
   max-width: 100px;
   margin: 25px auto 0;
@@ -27,10 +31,7 @@ hr {
   border-color: rgba(34, 34, 34, 0.1);
 }
 
-hr.light {
-  border-color: white;
-}
-
+/* Laying out the font attributes for the headers */
 h1,
 h2,
 h3,
@@ -42,16 +43,19 @@ h6 {
   letter-spacing: 1px;
 }
 
+/* Setting the font and margin */
 p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
+/* Adding padding around the section areas */
 section {
   padding: 100px 0;
 }
 
+/* Changing the font size of h2 inside the section */
 section h2 {
   font-size: 50px;
 }
@@ -110,6 +114,12 @@ section h2 {
   color: #fdcc52;
 }
 
+/* profile image */
+.profile-img {
+  height: 100px;
+  width: 100px;
+}
+
 /* Hero section ============= */
 
 section.masthead {
@@ -117,7 +127,7 @@ section.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  /* color: blue; */
+  /* color: aqua; */
   background-color: aqua;
 }
 
@@ -172,13 +182,17 @@ section.skills .skills-item img {
   box-shadow: 0px 5px 5px 0px #adb5bd;
 }
 
+
+/* Contact section ==========*/
 .contact-section {
   padding-top: 5rem;
 }
+
 .contact-section .card {
   border: 0;
   border-bottom: 0.25rem solid #64a19d;
 }
+
 .contact-section .card h4 {
   font-size: 0.8rem;
   font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -187,14 +201,17 @@ section.skills .skills-item img {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
+
 .contact-section .card hr {
   border-color: #64a19d;
   border-width: 0.25rem;
   width: 3rem;
 }
+
 .contact-section .social {
   margin-top: 5rem;
 }
+
 .contact-section .social a {
   text-align: center;
   height: 3rem;
@@ -204,17 +221,17 @@ section.skills .skills-item img {
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
 }
+
 .contact-section .social a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
-.contact-section .social a:active {
-  color: #fff;
-}
 
+/* bg color for the contact section */
 .bg-black {
   background-color: #000000 !important;
 }
 
+/* setting the style for the footer area ========*/
 footer {
   padding: 25px 0;
   text-align: center;
@@ -244,12 +261,12 @@ footer ul li a.active {
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #52fd5b;
+  background: linear-gradient(#52fdc4, #39bffd);
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: #52fd94;
 }
 
 .no-gutter > [class*='col-'] {
@@ -258,7 +275,7 @@ footer ul li a.active {
 }
 
 .btn {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgb(247, 245, 245) !important;
   padding: 1.25rem 2rem;
   font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
@@ -270,9 +287,9 @@ footer ul li a.active {
 }
 
 .btn-outline {
-  color: white;
+  color: #858585;
   border: 1px solid;
-  border-color: white;
+  border-color: #858585;
 }
 
 .btn-outline:hover,
@@ -280,8 +297,8 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
+  border-color: #858585;
+  background-color: #858585;
 }
 
 .btn {
@@ -304,11 +321,6 @@ footer ul li a.active {
 
 .sub-heading {
     font-family: Caveat !important;
-}
-
-.profile-img {
-    height: 100px;
-    width: 100px;
 }
 
 ul {
