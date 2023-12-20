@@ -59,4 +59,4 @@ This webpage has been tested using Git Pages [Click here to visit my live  git p
 
 ## Screenshot
 
-![alt text](https://github.com/baxt01/Bootstrap-Portfolio/blob/main/images/screenshot.png "screenshot of my repo")
+![repo screenshot](https://github.com/baxt01/Bootstrap-Portfolio/blob/main/images/screenshot.png "screenshot of my repo")
